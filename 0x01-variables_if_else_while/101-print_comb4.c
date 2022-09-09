@@ -13,7 +13,7 @@ int main(void)
 		{
 			for (num3 = 50; num3 < 58; num3++)
 			{
-				if (num3 > num2 > num1)
+				if (num3 > num2 && num2 > num1)
 				{
 					putchar(num1);
 					putchar(num2);
