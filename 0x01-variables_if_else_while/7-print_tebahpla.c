@@ -7,6 +7,7 @@
 int main(void)
 {
 	char mine;
+
 	for (mine = 'z'; mine >= 'a'; mine--)
 	{
 		putchar(mine);
