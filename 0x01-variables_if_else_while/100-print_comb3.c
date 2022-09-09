@@ -15,7 +15,7 @@ int mai(void)
 			{
 				putchar(num1);
 				putchar(num2);
-				if (n != 56 || m != 57)
+				if (num1 != 56 || num2 != 57)
 				{
 					putchar(',');
 					putchar(' ');
