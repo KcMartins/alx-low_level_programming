@@ -3,11 +3,12 @@
  * main - prints the alphabet in lowercase
  * Print all the letters except q and e,
  * followed by a new line.
- * Returns: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char mine = 'a';
+
 	while (mine <= 'z')
 	{
 		if (mine != 'e' && mine != 'q')
