@@ -4,7 +4,7 @@
 /**
  * main - prints the last digits of the randon
  * number stored in the variable n
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -20,4 +20,4 @@ int main(void)
 	else if (n % 10 < 5)
 		printf("and is less than 6 and not 0\n");
 	return (0);
-}
+
