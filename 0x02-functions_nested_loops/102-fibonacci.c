@@ -8,6 +8,7 @@ int main(void)
 {
 	int i;
 	unsigned long int j, k, next;
+
 	j = 1;
 	k = 2;
 
