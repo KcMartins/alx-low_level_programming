@@ -3,9 +3,9 @@
  * cap_string - capitalizes everey word of a string
  * @s: string to modify
  *
- * Return: the resulting string
+ * Return: the address of the string
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i, j;
 
