@@ -38,6 +38,7 @@ void print_line(char *c, int s, int l)
  *
  * Return: void
  */
+
 void print_buffer(char *b, int size)
 {
 	int i;
@@ -48,8 +49,7 @@ void print_buffer(char *b, int size)
 		if (i < size / 10)
 		{
 			print_line(b, 9, i);
-		}
-		else
+		} else
 		{
 			print_line(b, size % 10 - 1, i);
 		}
