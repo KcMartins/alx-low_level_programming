@@ -3,6 +3,7 @@
 /**
  * *_strdup - copies the string given as parameter
  * @str: string to duplicate
+ * Memory for the new string is obtained with malloc,
  *
  * Return: pointer to the copied string (Success), NULL (Error)
  */
