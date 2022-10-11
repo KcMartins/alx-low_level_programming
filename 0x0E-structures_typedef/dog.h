@@ -6,15 +6,13 @@
  * @name: First member
  * @age: Second member
  * @owner: Third member
- *
- * Description: Longer description containing the dog's details
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	int age;
 	char *owner;
-};
+}dog_t;
 
 /**
  * dog_t - typedef for struct dog
