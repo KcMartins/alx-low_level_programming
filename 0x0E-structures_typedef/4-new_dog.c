@@ -3,11 +3,11 @@
 
 /**
  * new_dog - creates a new dog
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  *
- * Return: pointer to the new dog
+ * Return: pointer to new dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -19,7 +19,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
-	for (len1 = 0; name[len1]; len++)
+	for (len1 = 0; name[len1]; len1++)
 		;
 	len1++;
 	dog->name = malloc(len1 * sizeof(char));
